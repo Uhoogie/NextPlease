@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7913014687355075402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.047
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.35260016
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775339026614921484, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784381938946746671, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_Name
+      value: Normal_Jason Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6152970992075121447, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1e844b9145e46c84db0a6e8cb48f7ccd, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3784381938946746671, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2723009801464859562}
+  m_SourcePrefab: {fileID: 100100000, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+--- !u!195 &1378164924559739455 stripped
+NavMeshAgent:
+  m_CorrespondingSourceObject: {fileID: 9146975068049781109, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+  m_PrefabInstance: {fileID: 7913014687355075402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6436910214115250789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3784381938946746671, guid: 2267f382d242f12479c987fcc2c96f42, type: 3}
+  m_PrefabInstance: {fileID: 7913014687355075402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2723009801464859562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6436910214115250789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f416314ccb5c0bb4abaa292f9dde0ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navAgent: {fileID: 1378164924559739455}
+  patrolPoints:
+  - {fileID: 2977445835628904126, guid: ab71db22b9f83984093ceeb42156988b, type: 3}
+  - {fileID: 8751381023592578091, guid: 13bb2e5ff97bf0a41875cfbe24f16bb7, type: 3}
+  - {fileID: 2257196428921183100, guid: 4071227b4894eed4aa15d101ad6bff8f, type: 3}
+  - {fileID: 2435651108051092700, guid: a11a99f5b136ef242a1fc19e5841317d, type: 3}
+  - {fileID: 2106794929840602416, guid: 56c4ac21a95d02d40990924332cf6901, type: 3}
+  patrolIndex: 0
+  waitTime: 0.5
+  secondSprite: {fileID: 0}
+  paperPrefab: {fileID: 2310446036566039751, guid: b9e05552d15aa0040a86975e2042c4da, type: 3}
+  paperSpawnPosition: {fileID: 6227752595441945274, guid: 2989dc9b857db3e4ba7af0adba73931c, type: 3}
+  paperZoomPosition: {fileID: 8053731114700153514, guid: 5b8b172ddba3f544a8bcce7b30848c15, type: 3}
+  dialogueBox: {fileID: 0}
+  textGUI: {fileID: 0}
+  introDialogueString: Hey, I need to get my license renewed.
+  acceptedDialogueString: Thanks, I appreciate that.
+  deniedDialogueString: "It wasn\u2019t me, I swear!"
